@@ -29,9 +29,9 @@ loop do
 
   say_then_pause 'Saisho wa gu, janken pon!'
   say_then_pause "You throw #{CHOICES[player_choice]}  " \
-  "#{SYMBOLS[player_choice]}"
+                 "#{SYMBOLS[player_choice]}"
   say_then_pause "#{opponent} throws #{CHOICES[computer_choice]}  " \
-  "#{SYMBOLS[computer_choice]}"
+                 "#{SYMBOLS[computer_choice]}"
 
   if player_choice == computer_choice
     say_then_pause "It's a draw!"
